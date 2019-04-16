@@ -1,5 +1,83 @@
 ((window["webpackJsonp"] = window["webpackJsonp"] || []).push([["static/development/pages/index.js"],{
 
+/***/ "./Sections/Home/Jumbo.js":
+/*!********************************!*\
+  !*** ./Sections/Home/Jumbo.js ***!
+  \********************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var styled_jsx_style__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! styled-jsx/style */ "./node_modules/styled-jsx/style.js");
+/* harmony import */ var styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
+var _jsxFileName = "/media/thomas/extfiles/Projects/treasured_footsteps/Sections/Home/Jumbo.js";
+
+
+
+var Jumbo = function Jumbo() {
+  return react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+    className: "jsx-2814580971",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 5
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+    className: "jsx-2814580971" + " " + 'jumbotron rounded-0 mb-0',
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 6
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+    className: "jsx-2814580971" + " " + "container",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 7
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+    className: "jsx-2814580971" + " " + "row",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 8
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+    className: "jsx-2814580971" + " " + "col-lg-6 col-sm-12 mt-3",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 9
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", {
+    className: "jsx-2814580971" + " " + 'text-white h1',
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 10
+    },
+    __self: this
+  }, "A Community of ladies who are dedicated to maintaining a healthy lifestyle."))), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("button", {
+    type: "button",
+    className: "jsx-2814580971" + " " + 'btn btn-outline-light btn-lg mt-4',
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 13
+    },
+    __self: this
+  }, "Get Started"))), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a, {
+    id: "2814580971",
+    __self: this
+  }, ".jumbotron.jsx-2814580971{height:450px;background-image:url('/static/dance_group.jpg');background-position:0 70%;background-size:cover;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9tZWRpYS90aG9tYXMvZXh0ZmlsZXMvUHJvamVjdHMvdHJlYXN1cmVkX2Zvb3RzdGVwcy9TZWN0aW9ucy9Ib21lL0p1bWJvLmpzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQWVlLEFBSWtCLGFBQ21DLGdEQUN0QiwwQkFFNUIsc0JBQUMiLCJmaWxlIjoiL21lZGlhL3Rob21hcy9leHRmaWxlcy9Qcm9qZWN0cy90cmVhc3VyZWRfZm9vdHN0ZXBzL1NlY3Rpb25zL0hvbWUvSnVtYm8uanMiLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgUmVhY3QgZnJvbSAncmVhY3QnXG5cbmNvbnN0IEp1bWJvID0gKCkgPT4ge1xuXHRyZXR1cm4gKFxuXHRcdDxkaXY+XG5cdFx0XHQ8ZGl2IGNsYXNzTmFtZT0nanVtYm90cm9uIHJvdW5kZWQtMCBtYi0wJz5cblx0XHRcdFx0PGRpdiBjbGFzc05hbWU9XCJjb250YWluZXJcIj5cblx0XHRcdFx0XHQ8ZGl2IGNsYXNzTmFtZT1cInJvd1wiPlxuXHRcdFx0XHRcdFx0PGRpdiBjbGFzc05hbWU9XCJjb2wtbGctNiBjb2wtc20tMTIgbXQtM1wiPlxuXHRcdFx0XHRcdFx0XHQ8cCBjbGFzc05hbWU9J3RleHQtd2hpdGUgaDEnPkEgQ29tbXVuaXR5IG9mIGxhZGllcyB3aG8gYXJlIGRlZGljYXRlZCB0byBtYWludGFpbmluZyBhIGhlYWx0aHkgbGlmZXN0eWxlLjwvcD5cblx0XHRcdFx0XHRcdDwvZGl2PlxuXHRcdFx0XHRcdDwvZGl2PlxuXHRcdFx0XHRcdDxidXR0b24gdHlwZT0nYnV0dG9uJyBjbGFzc05hbWU9J2J0biBidG4tb3V0bGluZS1saWdodCBidG4tbGcgbXQtNCc+R2V0IFN0YXJ0ZWQ8L2J1dHRvbj5cblx0XHRcdFx0PC9kaXY+XG5cdFx0XHQ8L2Rpdj5cblx0XHRcdDxzdHlsZSBqc3g+e2BcblxuXHRcdFx0Lmp1bWJvdHJvbntcblx0XHRcdFx0aGVpZ2h0OiA0NTBweDtcblx0XHRcdFx0YmFja2dyb3VuZC1pbWFnZTogdXJsKCcvc3RhdGljL2RhbmNlX2dyb3VwLmpwZycpO1xuXHRcdFx0XHRiYWNrZ3JvdW5kLXBvc2l0aW9uOiAwIDcwJTtcblx0XHRcdFx0YmFja2dyb3VuZC1zaXplOiBjb3ZlclxuXHRcdFx0fVxuXHRgfVxuXHRcdFx0PC9zdHlsZT5cblx0XHQ8L2Rpdj5cblx0KVxufVxuXG5leHBvcnQgZGVmYXVsdCBKdW1ib1xuIl19 */\n/*@ sourceURL=/media/thomas/extfiles/Projects/treasured_footsteps/Sections/Home/Jumbo.js */"));
+};
+
+/* harmony default export */ __webpack_exports__["default"] = (Jumbo);
+
+/***/ }),
+
 /***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=%2Fmedia%2Fthomas%2Fextfiles%2FProjects%2Ftreasured_footsteps%2Fpages%2Findex.js!./":
 /*!*********************************************************************************************************************************************************************************************!*\
   !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=%2Fmedia%2Fthomas%2Fextfiles%2FProjects%2Ftreasured_footsteps%2Fpages%2Findex.js ***!
@@ -990,158 +1068,122 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _Sections_Home_Jumbo__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../Sections/Home/Jumbo */ "./Sections/Home/Jumbo.js");
 var _jsxFileName = "/media/thomas/extfiles/Projects/treasured_footsteps/pages/index.js";
 
 
+ // Home Page
 
-// Home Page
 var Home = function Home() {
   return react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
     id: "home",
-    className: "jsx-1870906374",
+    className: "jsx-3378496292",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 5
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
-    className: "jsx-1870906374" + " " + 'jumbotron rounded-0 mb-0',
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_Sections_Home_Jumbo__WEBPACK_IMPORTED_MODULE_2__["default"], {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 8
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
-    className: "jsx-1870906374" + " " + "container",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 9
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
-    className: "jsx-1870906374" + " " + "row",
+  }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+    className: "jsx-3378496292" + " " + "social d-flex align-items-center text-center",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 10
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
-    className: "jsx-1870906374" + " " + "col-lg-6 col-sm-12 mt-3",
+    className: "jsx-3378496292" + " " + "col-4",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 11
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", {
-    className: "jsx-1870906374" + " " + 'text-white h1',
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("i", {
+    className: "jsx-3378496292" + " " + "fab fa-twitter fa-3x",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 12
     },
     __self: this
-  }, "A Community of ladies who are dedicated to maintaining a healthy lifestyle."))), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("button", {
-    type: "button",
-    className: "jsx-1870906374" + " " + 'btn btn-outline-light btn-lg mt-4',
+  })), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+    className: "jsx-3378496292" + " " + "col-4",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 14
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("i", {
+    className: "jsx-3378496292" + " " + "fab fa-instagram fa-3x",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 15
     },
     __self: this
-  }, "Get Started"))), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
-    className: "jsx-1870906374" + " " + "social d-flex align-items-center text-center",
+  })), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+    className: "jsx-3378496292" + " " + "col-4",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 19
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
-    className: "jsx-1870906374" + " " + "col-4",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 20
+      lineNumber: 17
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("i", {
-    className: "jsx-1870906374" + " " + "fab fa-twitter fa-3x",
+    className: "jsx-3378496292" + " " + "fab fa-facebook-f fa-3x",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 18
+    },
+    __self: this
+  }))), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+    className: "jsx-3378496292" + " " + "profile d-flex my-4 justify-content-center",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 21
     },
     __self: this
-  })), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
-    className: "jsx-1870906374" + " " + "col-4",
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+    className: "jsx-3378496292" + " " + "col-3",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 22
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("img", {
+    src: "/static/gwen.jpg",
+    style: {
+      width: 275
+    },
+    className: "jsx-3378496292",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 23
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("i", {
-    className: "jsx-1870906374" + " " + "fab fa-instagram fa-3x",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 24
-    },
-    __self: this
   })), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
-    className: "jsx-1870906374" + " " + "col-4",
+    className: "jsx-3378496292" + " " + "col-6",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 26
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("i", {
-    className: "jsx-1870906374" + " " + "fab fa-facebook-f fa-3x",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 27
-    },
-    __self: this
-  }))), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
-    className: "jsx-1870906374" + " " + "profile d-flex my-4 justify-content-center",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 30
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
-    className: "jsx-1870906374" + " " + "col-3",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 31
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("img", {
-    src: "/static/portrait.jpg",
-    style: {
-      width: 275
-    },
-    className: "jsx-1870906374",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 32
-    },
-    __self: this
-  })), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
-    className: "jsx-1870906374" + " " + "col-6",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 34
+      lineNumber: 25
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", {
     style: {
       lineHeight: 1.5
     },
-    className: "jsx-1870906374" + " " + 'lead',
+    className: "jsx-3378496292" + " " + 'lead',
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 35
+      lineNumber: 26
     },
     __self: this
   }, "Thank you for visiting Treasured Footsteps. My name is Gwen Jones and I am the founder of Treasured Footsteps. Treasured Footsteps is not only a fitness studio. We are a resource and place for women to exercise, socialize and participate in community events. I am a certified personal trainer, and wellness  coach who works with women 40 years of age and up. I provide quality services and ensure that all of my ladies are working in a safe, fun environment while seeing results in their overall wellness. I love what I do!"))), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a, {
-    id: "1870906374",
+    id: "3378496292",
     __self: this
-  }, ".jumbotron.jsx-1870906374{height:450px;background-image:url('/static/dance_group.jpg');background-position:0 70%;background-size:cover;}.social.jsx-1870906374{height:75px;background-color:lightgray;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9tZWRpYS90aG9tYXMvZXh0ZmlsZXMvUHJvamVjdHMvdHJlYXN1cmVkX2Zvb3RzdGVwcy9wYWdlcy9pbmRleC5qcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUF1Q2MsQUFRbUIsQUFPRCxZQUVkLENBUmtELDBCQVFqRCxzQkFQMkIsMEJBRTVCLHNCQUFDIiwiZmlsZSI6Ii9tZWRpYS90aG9tYXMvZXh0ZmlsZXMvUHJvamVjdHMvdHJlYXN1cmVkX2Zvb3RzdGVwcy9wYWdlcy9pbmRleC5qcyIsInNvdXJjZXNDb250ZW50IjpbIlxuXG4vLyBIb21lIFBhZ2VcbmNvbnN0IEhvbWUgPSAoKSA9PiAoXG5cdDxkaXYgaWQ9J2hvbWUnPlxuXG5cdFx0ey8qIEp1bWJvdHJvbiAqL31cblx0XHQ8ZGl2IGNsYXNzTmFtZT0nanVtYm90cm9uIHJvdW5kZWQtMCBtYi0wJz5cblx0XHRcdDxkaXYgY2xhc3NOYW1lPVwiY29udGFpbmVyXCI+XG5cdFx0XHRcdDxkaXYgY2xhc3NOYW1lPVwicm93XCI+XG5cdFx0XHRcdFx0PGRpdiBjbGFzc05hbWU9XCJjb2wtbGctNiBjb2wtc20tMTIgbXQtM1wiPlxuXHRcdFx0XHRcdFx0PHAgY2xhc3NOYW1lPSd0ZXh0LXdoaXRlIGgxJz5BIENvbW11bml0eSBvZiBsYWRpZXMgd2hvIGFyZSBkZWRpY2F0ZWQgdG8gbWFpbnRhaW5pbmcgYSBoZWFsdGh5IGxpZmVzdHlsZS48L3A+XG5cdFx0XHRcdFx0PC9kaXY+XG5cdFx0XHRcdDwvZGl2PlxuXHRcdFx0XHQ8YnV0dG9uIHR5cGU9J2J1dHRvbicgY2xhc3NOYW1lPSdidG4gYnRuLW91dGxpbmUtbGlnaHQgYnRuLWxnIG10LTQnPkdldCBTdGFydGVkPC9idXR0b24+XG5cdFx0XHQ8L2Rpdj5cblx0XHQ8L2Rpdj5cblxuXHRcdDxkaXYgY2xhc3NOYW1lPVwic29jaWFsIGQtZmxleCBhbGlnbi1pdGVtcy1jZW50ZXIgdGV4dC1jZW50ZXJcIj5cblx0XHRcdDxkaXYgY2xhc3NOYW1lPVwiY29sLTRcIj5cblx0XHRcdFx0PGkgY2xhc3NOYW1lPVwiZmFiIGZhLXR3aXR0ZXIgZmEtM3hcIj48L2k+XG5cdFx0XHQ8L2Rpdj5cblx0XHRcdDxkaXYgY2xhc3NOYW1lPVwiY29sLTRcIj5cblx0XHRcdFx0PGkgY2xhc3NOYW1lPVwiZmFiIGZhLWluc3RhZ3JhbSBmYS0zeFwiPjwvaT5cblx0XHRcdDwvZGl2PlxuXHRcdFx0PGRpdiBjbGFzc05hbWU9XCJjb2wtNFwiPlxuXHRcdFx0XHQ8aSBjbGFzc05hbWU9XCJmYWIgZmEtZmFjZWJvb2stZiBmYS0zeFwiPjwvaT5cblx0XHRcdDwvZGl2PlxuXHRcdDwvZGl2PlxuXHRcdDxkaXYgY2xhc3NOYW1lPVwicHJvZmlsZSBkLWZsZXggbXktNCBqdXN0aWZ5LWNvbnRlbnQtY2VudGVyXCI+XG5cdFx0XHQ8ZGl2IGNsYXNzTmFtZT1cImNvbC0zXCI+XG5cdFx0XHRcdDxpbWcgc3JjPScvc3RhdGljL3BvcnRyYWl0LmpwZycgc3R5bGU9e3sgd2lkdGg6IDI3NSB9fSAvPlxuXHRcdFx0PC9kaXY+XG5cdFx0XHQ8ZGl2IGNsYXNzTmFtZT1cImNvbC02XCI+XG5cdFx0XHRcdDxwIGNsYXNzTmFtZT0nbGVhZCcgc3R5bGU9e3sgbGluZUhlaWdodDogMS41IH19PlRoYW5rIHlvdSBmb3IgdmlzaXRpbmcgVHJlYXN1cmVkIEZvb3RzdGVwcy4gTXkgbmFtZSBpcyBHd2VuIEpvbmVzIGFuZCBJIGFtIHRoZSBmb3VuZGVyIG9mIFRyZWFzdXJlZCBGb290c3RlcHMuIFRyZWFzdXJlZCBGb290c3RlcHMgaXMgbm90IG9ubHkgYSBmaXRuZXNzIHN0dWRpby4gV2UgYXJlIGEgcmVzb3VyY2UgYW5kIHBsYWNlIGZvciB3b21lbiB0byBleGVyY2lzZSwgc29jaWFsaXplIGFuZCBwYXJ0aWNpcGF0ZSBpbiBjb21tdW5pdHkgZXZlbnRzLiBJIGFtIGEgY2VydGlmaWVkIHBlcnNvbmFsIHRyYWluZXIsIGFuZCB3ZWxsbmVzcyAgY29hY2ggd2hvIHdvcmtzIHdpdGggd29tZW4gNDAgeWVhcnMgb2YgYWdlIGFuZCB1cC4gSSBwcm92aWRlIHF1YWxpdHkgc2VydmljZXMgYW5kIGVuc3VyZSB0aGF0IGFsbCBvZiBteSBsYWRpZXMgYXJlIHdvcmtpbmcgaW4gYSBzYWZlLCBmdW4gZW52aXJvbm1lbnQgd2hpbGUgc2VlaW5nIHJlc3VsdHMgaW4gdGhlaXIgb3ZlcmFsbCB3ZWxsbmVzcy4gSSBsb3ZlIHdoYXQgSSBkbyE8L3A+XG5cdFx0XHQ8L2Rpdj5cblx0XHQ8L2Rpdj5cblxuXG5cdFx0PHN0eWxlIGpzeD57YFxuXG5cdFx0XHRcdCNob21lIHtcblx0XHRcdFx0XHRcblx0XHRcdFx0fVxuXG4gICAgICAgIC5qdW1ib3Ryb257XG5cdFx0XHRcdFx0aGVpZ2h0OiA0NTBweDtcblx0XHRcdFx0XHRiYWNrZ3JvdW5kLWltYWdlOiB1cmwoJy9zdGF0aWMvZGFuY2VfZ3JvdXAuanBnJyk7XG5cdFx0XHRcdFx0YmFja2dyb3VuZC1wb3NpdGlvbjogMCA3MCU7XG5cdFx0XHRcdFx0YmFja2dyb3VuZC1zaXplOiBjb3ZlclxuXHRcdFx0XHR9XG5cblx0XHRcdFx0LnNvY2lhbCB7XG5cdFx0XHRcdFx0aGVpZ2h0OiA3NXB4O1xuXHRcdFx0XHRcdGJhY2tncm91bmQtY29sb3I6IGxpZ2h0Z3JheVxuXHRcdFx0XHR9XG4gICAgICBgfVxuXHRcdDwvc3R5bGU+XG5cdDwvZGl2PlxuKVxuXG5leHBvcnQgZGVmYXVsdCBIb21lOyJdfQ== */\n/*@ sourceURL=/media/thomas/extfiles/Projects/treasured_footsteps/pages/index.js */"));
+  }, ".social.jsx-3378496292{height:75px;background-color:lightgray;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9tZWRpYS90aG9tYXMvZXh0ZmlsZXMvUHJvamVjdHMvdHJlYXN1cmVkX2Zvb3RzdGVwcy9wYWdlcy9pbmRleC5qcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUE4QmMsQUFLa0IsWUFFZCwyQkFBQyIsImZpbGUiOiIvbWVkaWEvdGhvbWFzL2V4dGZpbGVzL1Byb2plY3RzL3RyZWFzdXJlZF9mb290c3RlcHMvcGFnZXMvaW5kZXguanMiLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgSnVtYm8gZnJvbSAnLi4vU2VjdGlvbnMvSG9tZS9KdW1ibydcblxuLy8gSG9tZSBQYWdlXG5jb25zdCBIb21lID0gKCkgPT4gKFxuXHQ8ZGl2IGlkPSdob21lJz5cblxuXHRcdHsvKiBKdW1ib3Ryb24gKi99XG5cdFx0PEp1bWJvIC8+XG5cblx0XHQ8ZGl2IGNsYXNzTmFtZT1cInNvY2lhbCBkLWZsZXggYWxpZ24taXRlbXMtY2VudGVyIHRleHQtY2VudGVyXCI+XG5cdFx0XHQ8ZGl2IGNsYXNzTmFtZT1cImNvbC00XCI+XG5cdFx0XHRcdDxpIGNsYXNzTmFtZT1cImZhYiBmYS10d2l0dGVyIGZhLTN4XCI+PC9pPlxuXHRcdFx0PC9kaXY+XG5cdFx0XHQ8ZGl2IGNsYXNzTmFtZT1cImNvbC00XCI+XG5cdFx0XHRcdDxpIGNsYXNzTmFtZT1cImZhYiBmYS1pbnN0YWdyYW0gZmEtM3hcIj48L2k+XG5cdFx0XHQ8L2Rpdj5cblx0XHRcdDxkaXYgY2xhc3NOYW1lPVwiY29sLTRcIj5cblx0XHRcdFx0PGkgY2xhc3NOYW1lPVwiZmFiIGZhLWZhY2Vib29rLWYgZmEtM3hcIj48L2k+XG5cdFx0XHQ8L2Rpdj5cblx0XHQ8L2Rpdj5cblx0XHQ8ZGl2IGNsYXNzTmFtZT1cInByb2ZpbGUgZC1mbGV4IG15LTQganVzdGlmeS1jb250ZW50LWNlbnRlclwiPlxuXHRcdFx0PGRpdiBjbGFzc05hbWU9XCJjb2wtM1wiPlxuXHRcdFx0XHQ8aW1nIHNyYz0nL3N0YXRpYy9nd2VuLmpwZycgc3R5bGU9e3sgd2lkdGg6IDI3NSB9fSAvPlxuXHRcdFx0PC9kaXY+XG5cdFx0XHQ8ZGl2IGNsYXNzTmFtZT1cImNvbC02XCI+XG5cdFx0XHRcdDxwIGNsYXNzTmFtZT0nbGVhZCcgc3R5bGU9e3sgbGluZUhlaWdodDogMS41IH19PlRoYW5rIHlvdSBmb3IgdmlzaXRpbmcgVHJlYXN1cmVkIEZvb3RzdGVwcy4gTXkgbmFtZSBpcyBHd2VuIEpvbmVzIGFuZCBJIGFtIHRoZSBmb3VuZGVyIG9mIFRyZWFzdXJlZCBGb290c3RlcHMuIFRyZWFzdXJlZCBGb290c3RlcHMgaXMgbm90IG9ubHkgYSBmaXRuZXNzIHN0dWRpby4gV2UgYXJlIGEgcmVzb3VyY2UgYW5kIHBsYWNlIGZvciB3b21lbiB0byBleGVyY2lzZSwgc29jaWFsaXplIGFuZCBwYXJ0aWNpcGF0ZSBpbiBjb21tdW5pdHkgZXZlbnRzLiBJIGFtIGEgY2VydGlmaWVkIHBlcnNvbmFsIHRyYWluZXIsIGFuZCB3ZWxsbmVzcyAgY29hY2ggd2hvIHdvcmtzIHdpdGggd29tZW4gNDAgeWVhcnMgb2YgYWdlIGFuZCB1cC4gSSBwcm92aWRlIHF1YWxpdHkgc2VydmljZXMgYW5kIGVuc3VyZSB0aGF0IGFsbCBvZiBteSBsYWRpZXMgYXJlIHdvcmtpbmcgaW4gYSBzYWZlLCBmdW4gZW52aXJvbm1lbnQgd2hpbGUgc2VlaW5nIHJlc3VsdHMgaW4gdGhlaXIgb3ZlcmFsbCB3ZWxsbmVzcy4gSSBsb3ZlIHdoYXQgSSBkbyE8L3A+XG5cdFx0XHQ8L2Rpdj5cblx0XHQ8L2Rpdj5cblxuXG5cdFx0PHN0eWxlIGpzeD57YFxuXG5cblx0XHRcdFx0LnNvY2lhbCB7XG5cdFx0XHRcdFx0aGVpZ2h0OiA3NXB4O1xuXHRcdFx0XHRcdGJhY2tncm91bmQtY29sb3I6IGxpZ2h0Z3JheVxuXHRcdFx0XHR9XG4gICAgICBgfVxuXHRcdDwvc3R5bGU+XG5cdDwvZGl2PlxuKVxuXG5leHBvcnQgZGVmYXVsdCBIb21lOyJdfQ== */\n/*@ sourceURL=/media/thomas/extfiles/Projects/treasured_footsteps/pages/index.js */"));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (Home);
