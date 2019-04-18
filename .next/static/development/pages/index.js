@@ -22,42 +22,42 @@ var Jumbo = function Jumbo() {
     className: "jsx-2814580971",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 5
+      lineNumber: 4
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
     className: "jsx-2814580971" + " " + 'jumbotron rounded-0 mb-0',
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 6
+      lineNumber: 5
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
     className: "jsx-2814580971" + " " + "container",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 7
+      lineNumber: 6
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
     className: "jsx-2814580971" + " " + "row",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 8
+      lineNumber: 7
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
     className: "jsx-2814580971" + " " + "col-lg-6 col-sm-12 mt-3",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 9
+      lineNumber: 8
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", {
     className: "jsx-2814580971" + " " + 'text-white h1',
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 10
+      lineNumber: 9
     },
     __self: this
   }, "A Community of ladies who are dedicated to maintaining a healthy lifestyle."))), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("button", {
@@ -65,16 +65,102 @@ var Jumbo = function Jumbo() {
     className: "jsx-2814580971" + " " + 'btn btn-outline-light btn-lg mt-4',
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 13
+      lineNumber: 12
     },
     __self: this
   }, "Get Started"))), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a, {
     id: "2814580971",
     __self: this
-  }, ".jumbotron.jsx-2814580971{height:450px;background-image:url('/static/dance_group.jpg');background-position:0 70%;background-size:cover;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9tZWRpYS90aG9tYXMvZXh0ZmlsZXMvUHJvamVjdHMvdHJlYXN1cmVkX2Zvb3RzdGVwcy9TZWN0aW9ucy9Ib21lL0p1bWJvLmpzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQWVlLEFBSWtCLGFBQ21DLGdEQUN0QiwwQkFFNUIsc0JBQUMiLCJmaWxlIjoiL21lZGlhL3Rob21hcy9leHRmaWxlcy9Qcm9qZWN0cy90cmVhc3VyZWRfZm9vdHN0ZXBzL1NlY3Rpb25zL0hvbWUvSnVtYm8uanMiLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgUmVhY3QgZnJvbSAncmVhY3QnXG5cbmNvbnN0IEp1bWJvID0gKCkgPT4ge1xuXHRyZXR1cm4gKFxuXHRcdDxkaXY+XG5cdFx0XHQ8ZGl2IGNsYXNzTmFtZT0nanVtYm90cm9uIHJvdW5kZWQtMCBtYi0wJz5cblx0XHRcdFx0PGRpdiBjbGFzc05hbWU9XCJjb250YWluZXJcIj5cblx0XHRcdFx0XHQ8ZGl2IGNsYXNzTmFtZT1cInJvd1wiPlxuXHRcdFx0XHRcdFx0PGRpdiBjbGFzc05hbWU9XCJjb2wtbGctNiBjb2wtc20tMTIgbXQtM1wiPlxuXHRcdFx0XHRcdFx0XHQ8cCBjbGFzc05hbWU9J3RleHQtd2hpdGUgaDEnPkEgQ29tbXVuaXR5IG9mIGxhZGllcyB3aG8gYXJlIGRlZGljYXRlZCB0byBtYWludGFpbmluZyBhIGhlYWx0aHkgbGlmZXN0eWxlLjwvcD5cblx0XHRcdFx0XHRcdDwvZGl2PlxuXHRcdFx0XHRcdDwvZGl2PlxuXHRcdFx0XHRcdDxidXR0b24gdHlwZT0nYnV0dG9uJyBjbGFzc05hbWU9J2J0biBidG4tb3V0bGluZS1saWdodCBidG4tbGcgbXQtNCc+R2V0IFN0YXJ0ZWQ8L2J1dHRvbj5cblx0XHRcdFx0PC9kaXY+XG5cdFx0XHQ8L2Rpdj5cblx0XHRcdDxzdHlsZSBqc3g+e2BcblxuXHRcdFx0Lmp1bWJvdHJvbntcblx0XHRcdFx0aGVpZ2h0OiA0NTBweDtcblx0XHRcdFx0YmFja2dyb3VuZC1pbWFnZTogdXJsKCcvc3RhdGljL2RhbmNlX2dyb3VwLmpwZycpO1xuXHRcdFx0XHRiYWNrZ3JvdW5kLXBvc2l0aW9uOiAwIDcwJTtcblx0XHRcdFx0YmFja2dyb3VuZC1zaXplOiBjb3ZlclxuXHRcdFx0fVxuXHRgfVxuXHRcdFx0PC9zdHlsZT5cblx0XHQ8L2Rpdj5cblx0KVxufVxuXG5leHBvcnQgZGVmYXVsdCBKdW1ib1xuIl19 */\n/*@ sourceURL=/media/thomas/extfiles/Projects/treasured_footsteps/Sections/Home/Jumbo.js */"));
+  }, ".jumbotron.jsx-2814580971{height:450px;background-image:url('/static/dance_group.jpg');background-position:0 70%;background-size:cover;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9tZWRpYS90aG9tYXMvZXh0ZmlsZXMvUHJvamVjdHMvdHJlYXN1cmVkX2Zvb3RzdGVwcy9TZWN0aW9ucy9Ib21lL0p1bWJvLmpzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQWNlLEFBSWtCLGFBQ21DLGdEQUN0QiwwQkFFNUIsc0JBQUMiLCJmaWxlIjoiL21lZGlhL3Rob21hcy9leHRmaWxlcy9Qcm9qZWN0cy90cmVhc3VyZWRfZm9vdHN0ZXBzL1NlY3Rpb25zL0hvbWUvSnVtYm8uanMiLCJzb3VyY2VzQ29udGVudCI6WyJcbmNvbnN0IEp1bWJvID0gKCkgPT4ge1xuXHRyZXR1cm4gKFxuXHRcdDxkaXY+XG5cdFx0XHQ8ZGl2IGNsYXNzTmFtZT0nanVtYm90cm9uIHJvdW5kZWQtMCBtYi0wJz5cblx0XHRcdFx0PGRpdiBjbGFzc05hbWU9XCJjb250YWluZXJcIj5cblx0XHRcdFx0XHQ8ZGl2IGNsYXNzTmFtZT1cInJvd1wiPlxuXHRcdFx0XHRcdFx0PGRpdiBjbGFzc05hbWU9XCJjb2wtbGctNiBjb2wtc20tMTIgbXQtM1wiPlxuXHRcdFx0XHRcdFx0XHQ8cCBjbGFzc05hbWU9J3RleHQtd2hpdGUgaDEnPkEgQ29tbXVuaXR5IG9mIGxhZGllcyB3aG8gYXJlIGRlZGljYXRlZCB0byBtYWludGFpbmluZyBhIGhlYWx0aHkgbGlmZXN0eWxlLjwvcD5cblx0XHRcdFx0XHRcdDwvZGl2PlxuXHRcdFx0XHRcdDwvZGl2PlxuXHRcdFx0XHRcdDxidXR0b24gdHlwZT0nYnV0dG9uJyBjbGFzc05hbWU9J2J0biBidG4tb3V0bGluZS1saWdodCBidG4tbGcgbXQtNCc+R2V0IFN0YXJ0ZWQ8L2J1dHRvbj5cblx0XHRcdFx0PC9kaXY+XG5cdFx0XHQ8L2Rpdj5cblx0XHRcdDxzdHlsZSBqc3g+e2BcblxuXHRcdFx0Lmp1bWJvdHJvbntcblx0XHRcdFx0aGVpZ2h0OiA0NTBweDtcblx0XHRcdFx0YmFja2dyb3VuZC1pbWFnZTogdXJsKCcvc3RhdGljL2RhbmNlX2dyb3VwLmpwZycpO1xuXHRcdFx0XHRiYWNrZ3JvdW5kLXBvc2l0aW9uOiAwIDcwJTtcblx0XHRcdFx0YmFja2dyb3VuZC1zaXplOiBjb3ZlclxuXHRcdFx0fVxuXHRgfVxuXHRcdFx0PC9zdHlsZT5cblx0XHQ8L2Rpdj5cblx0KVxufVxuXG5leHBvcnQgZGVmYXVsdCBKdW1ib1xuIl19 */\n/*@ sourceURL=/media/thomas/extfiles/Projects/treasured_footsteps/Sections/Home/Jumbo.js */"));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (Jumbo);
+
+/***/ }),
+
+/***/ "./Sections/Home/Services.js":
+/*!***********************************!*\
+  !*** ./Sections/Home/Services.js ***!
+  \***********************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+var _jsxFileName = "/media/thomas/extfiles/Projects/treasured_footsteps/Sections/Home/Services.js";
+
+
+var Services = function Services() {
+  var services = ['group fitness', 'Personal Training', 'Wellness Coaching'];
+  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "d-flex justify-content-around my-5",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 6
+    },
+    __self: this
+  }, services.map(function (service) {
+    return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      className: "card",
+      style: {
+        width: "18rem"
+      },
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 8
+      },
+      __self: this
+    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      className: "card-body",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 9
+      },
+      __self: this
+    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h5", {
+      className: "card-title text-center text-capitalize",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 10
+      },
+      __self: this
+    }, service), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h6", {
+      className: "card-subtitle mb-2 text-muted",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 11
+      },
+      __self: this
+    }, "Card subtitle"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+      className: "card-text",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 12
+      },
+      __self: this
+    }, "Some quick example text to build on the card title and make up the bulk of the card's content."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+      href: "#",
+      className: "card-link",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 13
+      },
+      __self: this
+    }, "Card link"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+      href: "#",
+      className: "card-link",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 14
+      },
+      __self: this
+    }, "Another link")));
+  }));
+};
+
+/* harmony default export */ __webpack_exports__["default"] = (Services);
 
 /***/ }),
 
@@ -1069,7 +1155,9 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var _Sections_Home_Jumbo__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../Sections/Home/Jumbo */ "./Sections/Home/Jumbo.js");
+/* harmony import */ var _Sections_Home_Services__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../Sections/Home/Services */ "./Sections/Home/Services.js");
 var _jsxFileName = "/media/thomas/extfiles/Projects/treasured_footsteps/pages/index.js";
+
 
 
  // Home Page
@@ -1080,76 +1168,33 @@ var Home = function Home() {
     className: "jsx-3378496292",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 5
+      lineNumber: 6
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_Sections_Home_Jumbo__WEBPACK_IMPORTED_MODULE_2__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 8
+      lineNumber: 9
     },
     __self: this
-  }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
-    className: "jsx-3378496292" + " " + "social d-flex align-items-center text-center",
+  }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_Sections_Home_Services__WEBPACK_IMPORTED_MODULE_3__["default"], {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 10
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
-    className: "jsx-3378496292" + " " + "col-4",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 11
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("i", {
-    className: "jsx-3378496292" + " " + "fab fa-twitter fa-3x",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 12
-    },
-    __self: this
-  })), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
-    className: "jsx-3378496292" + " " + "col-4",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 14
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("i", {
-    className: "jsx-3378496292" + " " + "fab fa-instagram fa-3x",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 15
-    },
-    __self: this
-  })), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
-    className: "jsx-3378496292" + " " + "col-4",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 17
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("i", {
-    className: "jsx-3378496292" + " " + "fab fa-facebook-f fa-3x",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 18
-    },
-    __self: this
-  }))), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+  }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
     className: "jsx-3378496292" + " " + "profile d-flex my-4 justify-content-center",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 21
+      lineNumber: 13
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
     className: "jsx-3378496292" + " " + "col-3",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 22
+      lineNumber: 14
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("img", {
@@ -1160,14 +1205,14 @@ var Home = function Home() {
     className: "jsx-3378496292",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 23
+      lineNumber: 15
     },
     __self: this
   })), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
     className: "jsx-3378496292" + " " + "col-6",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 25
+      lineNumber: 17
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", {
@@ -1177,13 +1222,13 @@ var Home = function Home() {
     className: "jsx-3378496292" + " " + 'lead',
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 26
+      lineNumber: 18
     },
     __self: this
   }, "Thank you for visiting Treasured Footsteps. My name is Gwen Jones and I am the founder of Treasured Footsteps. Treasured Footsteps is not only a fitness studio. We are a resource and place for women to exercise, socialize and participate in community events. I am a certified personal trainer, and wellness  coach who works with women 40 years of age and up. I provide quality services and ensure that all of my ladies are working in a safe, fun environment while seeing results in their overall wellness. I love what I do!"))), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a, {
     id: "3378496292",
     __self: this
-  }, ".social.jsx-3378496292{height:75px;background-color:lightgray;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9tZWRpYS90aG9tYXMvZXh0ZmlsZXMvUHJvamVjdHMvdHJlYXN1cmVkX2Zvb3RzdGVwcy9wYWdlcy9pbmRleC5qcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUE4QmMsQUFLa0IsWUFFZCwyQkFBQyIsImZpbGUiOiIvbWVkaWEvdGhvbWFzL2V4dGZpbGVzL1Byb2plY3RzL3RyZWFzdXJlZF9mb290c3RlcHMvcGFnZXMvaW5kZXguanMiLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgSnVtYm8gZnJvbSAnLi4vU2VjdGlvbnMvSG9tZS9KdW1ibydcblxuLy8gSG9tZSBQYWdlXG5jb25zdCBIb21lID0gKCkgPT4gKFxuXHQ8ZGl2IGlkPSdob21lJz5cblxuXHRcdHsvKiBKdW1ib3Ryb24gKi99XG5cdFx0PEp1bWJvIC8+XG5cblx0XHQ8ZGl2IGNsYXNzTmFtZT1cInNvY2lhbCBkLWZsZXggYWxpZ24taXRlbXMtY2VudGVyIHRleHQtY2VudGVyXCI+XG5cdFx0XHQ8ZGl2IGNsYXNzTmFtZT1cImNvbC00XCI+XG5cdFx0XHRcdDxpIGNsYXNzTmFtZT1cImZhYiBmYS10d2l0dGVyIGZhLTN4XCI+PC9pPlxuXHRcdFx0PC9kaXY+XG5cdFx0XHQ8ZGl2IGNsYXNzTmFtZT1cImNvbC00XCI+XG5cdFx0XHRcdDxpIGNsYXNzTmFtZT1cImZhYiBmYS1pbnN0YWdyYW0gZmEtM3hcIj48L2k+XG5cdFx0XHQ8L2Rpdj5cblx0XHRcdDxkaXYgY2xhc3NOYW1lPVwiY29sLTRcIj5cblx0XHRcdFx0PGkgY2xhc3NOYW1lPVwiZmFiIGZhLWZhY2Vib29rLWYgZmEtM3hcIj48L2k+XG5cdFx0XHQ8L2Rpdj5cblx0XHQ8L2Rpdj5cblx0XHQ8ZGl2IGNsYXNzTmFtZT1cInByb2ZpbGUgZC1mbGV4IG15LTQganVzdGlmeS1jb250ZW50LWNlbnRlclwiPlxuXHRcdFx0PGRpdiBjbGFzc05hbWU9XCJjb2wtM1wiPlxuXHRcdFx0XHQ8aW1nIHNyYz0nL3N0YXRpYy9nd2VuLmpwZycgc3R5bGU9e3sgd2lkdGg6IDI3NSB9fSAvPlxuXHRcdFx0PC9kaXY+XG5cdFx0XHQ8ZGl2IGNsYXNzTmFtZT1cImNvbC02XCI+XG5cdFx0XHRcdDxwIGNsYXNzTmFtZT0nbGVhZCcgc3R5bGU9e3sgbGluZUhlaWdodDogMS41IH19PlRoYW5rIHlvdSBmb3IgdmlzaXRpbmcgVHJlYXN1cmVkIEZvb3RzdGVwcy4gTXkgbmFtZSBpcyBHd2VuIEpvbmVzIGFuZCBJIGFtIHRoZSBmb3VuZGVyIG9mIFRyZWFzdXJlZCBGb290c3RlcHMuIFRyZWFzdXJlZCBGb290c3RlcHMgaXMgbm90IG9ubHkgYSBmaXRuZXNzIHN0dWRpby4gV2UgYXJlIGEgcmVzb3VyY2UgYW5kIHBsYWNlIGZvciB3b21lbiB0byBleGVyY2lzZSwgc29jaWFsaXplIGFuZCBwYXJ0aWNpcGF0ZSBpbiBjb21tdW5pdHkgZXZlbnRzLiBJIGFtIGEgY2VydGlmaWVkIHBlcnNvbmFsIHRyYWluZXIsIGFuZCB3ZWxsbmVzcyAgY29hY2ggd2hvIHdvcmtzIHdpdGggd29tZW4gNDAgeWVhcnMgb2YgYWdlIGFuZCB1cC4gSSBwcm92aWRlIHF1YWxpdHkgc2VydmljZXMgYW5kIGVuc3VyZSB0aGF0IGFsbCBvZiBteSBsYWRpZXMgYXJlIHdvcmtpbmcgaW4gYSBzYWZlLCBmdW4gZW52aXJvbm1lbnQgd2hpbGUgc2VlaW5nIHJlc3VsdHMgaW4gdGhlaXIgb3ZlcmFsbCB3ZWxsbmVzcy4gSSBsb3ZlIHdoYXQgSSBkbyE8L3A+XG5cdFx0XHQ8L2Rpdj5cblx0XHQ8L2Rpdj5cblxuXG5cdFx0PHN0eWxlIGpzeD57YFxuXG5cblx0XHRcdFx0LnNvY2lhbCB7XG5cdFx0XHRcdFx0aGVpZ2h0OiA3NXB4O1xuXHRcdFx0XHRcdGJhY2tncm91bmQtY29sb3I6IGxpZ2h0Z3JheVxuXHRcdFx0XHR9XG4gICAgICBgfVxuXHRcdDwvc3R5bGU+XG5cdDwvZGl2PlxuKVxuXG5leHBvcnQgZGVmYXVsdCBIb21lOyJdfQ== */\n/*@ sourceURL=/media/thomas/extfiles/Projects/treasured_footsteps/pages/index.js */"));
+  }, ".social.jsx-3378496292{height:75px;background-color:lightgray;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9tZWRpYS90aG9tYXMvZXh0ZmlsZXMvUHJvamVjdHMvdHJlYXN1cmVkX2Zvb3RzdGVwcy9wYWdlcy9pbmRleC5qcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFzQmMsQUFLa0IsWUFFZCwyQkFBQyIsImZpbGUiOiIvbWVkaWEvdGhvbWFzL2V4dGZpbGVzL1Byb2plY3RzL3RyZWFzdXJlZF9mb290c3RlcHMvcGFnZXMvaW5kZXguanMiLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgSnVtYm8gZnJvbSAnLi4vU2VjdGlvbnMvSG9tZS9KdW1ibydcbmltcG9ydCBTZXJ2aWNlcyBmcm9tICcuLi9TZWN0aW9ucy9Ib21lL1NlcnZpY2VzJ1xuXG4vLyBIb21lIFBhZ2VcbmNvbnN0IEhvbWUgPSAoKSA9PiAoXG5cdDxkaXYgaWQ9J2hvbWUnPlxuXG5cdFx0ey8qIEp1bWJvdHJvbiAqL31cblx0XHQ8SnVtYm8gLz5cblx0XHQ8U2VydmljZXMgLz5cblxuXG5cdFx0PGRpdiBjbGFzc05hbWU9XCJwcm9maWxlIGQtZmxleCBteS00IGp1c3RpZnktY29udGVudC1jZW50ZXJcIj5cblx0XHRcdDxkaXYgY2xhc3NOYW1lPVwiY29sLTNcIj5cblx0XHRcdFx0PGltZyBzcmM9Jy9zdGF0aWMvZ3dlbi5qcGcnIHN0eWxlPXt7IHdpZHRoOiAyNzUgfX0gLz5cblx0XHRcdDwvZGl2PlxuXHRcdFx0PGRpdiBjbGFzc05hbWU9XCJjb2wtNlwiPlxuXHRcdFx0XHQ8cCBjbGFzc05hbWU9J2xlYWQnIHN0eWxlPXt7IGxpbmVIZWlnaHQ6IDEuNSB9fT5UaGFuayB5b3UgZm9yIHZpc2l0aW5nIFRyZWFzdXJlZCBGb290c3RlcHMuIE15IG5hbWUgaXMgR3dlbiBKb25lcyBhbmQgSSBhbSB0aGUgZm91bmRlciBvZiBUcmVhc3VyZWQgRm9vdHN0ZXBzLiBUcmVhc3VyZWQgRm9vdHN0ZXBzIGlzIG5vdCBvbmx5IGEgZml0bmVzcyBzdHVkaW8uIFdlIGFyZSBhIHJlc291cmNlIGFuZCBwbGFjZSBmb3Igd29tZW4gdG8gZXhlcmNpc2UsIHNvY2lhbGl6ZSBhbmQgcGFydGljaXBhdGUgaW4gY29tbXVuaXR5IGV2ZW50cy4gSSBhbSBhIGNlcnRpZmllZCBwZXJzb25hbCB0cmFpbmVyLCBhbmQgd2VsbG5lc3MgIGNvYWNoIHdobyB3b3JrcyB3aXRoIHdvbWVuIDQwIHllYXJzIG9mIGFnZSBhbmQgdXAuIEkgcHJvdmlkZSBxdWFsaXR5IHNlcnZpY2VzIGFuZCBlbnN1cmUgdGhhdCBhbGwgb2YgbXkgbGFkaWVzIGFyZSB3b3JraW5nIGluIGEgc2FmZSwgZnVuIGVudmlyb25tZW50IHdoaWxlIHNlZWluZyByZXN1bHRzIGluIHRoZWlyIG92ZXJhbGwgd2VsbG5lc3MuIEkgbG92ZSB3aGF0IEkgZG8hPC9wPlxuXHRcdFx0PC9kaXY+XG5cdFx0PC9kaXY+XG5cblxuXHRcdDxzdHlsZSBqc3g+e2BcblxuXG5cdFx0XHRcdC5zb2NpYWwge1xuXHRcdFx0XHRcdGhlaWdodDogNzVweDtcblx0XHRcdFx0XHRiYWNrZ3JvdW5kLWNvbG9yOiBsaWdodGdyYXlcblx0XHRcdFx0fVxuICAgICAgYH1cblx0XHQ8L3N0eWxlPlxuXHQ8L2Rpdj5cbilcblxuZXhwb3J0IGRlZmF1bHQgSG9tZTsiXX0= */\n/*@ sourceURL=/media/thomas/extfiles/Projects/treasured_footsteps/pages/index.js */"));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (Home);

@@ -19,7 +19,7 @@ var _jsxFileName = "/media/thomas/extfiles/Projects/treasured_footsteps/Componen
 
 var Nav = function Nav() {
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("nav", {
-    className: "navbar navbar-expand-lg navbar-light bg-light mb-0 position-fixed w-100",
+    className: "navbar navbar-expand-lg navbar-light bg-light mb-0 fixed-top",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 5

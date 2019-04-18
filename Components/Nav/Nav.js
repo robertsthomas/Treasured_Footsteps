@@ -2,7 +2,7 @@ import Link from 'next/link'
 
 const Nav = () => {
 	return (
-		<nav className="navbar navbar-expand-lg navbar-light bg-light mb-0 position-fixed w-100">
+		<nav className="navbar navbar-expand-lg navbar-light bg-light mb-0 fixed-top">
 			<Link href="/"><a className="navbar-brand">Treasured Footsteps</a></Link>
 			<button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
 				<span className="navbar-toggler-icon"></span>

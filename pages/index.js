@@ -1,4 +1,5 @@
 import Jumbo from '../Sections/Home/Jumbo'
+import Services from '../Sections/Home/Services'
 
 // Home Page
 const Home = () => (
@@ -6,18 +7,9 @@ const Home = () => (
 
 		{/* Jumbotron */}
 		<Jumbo />
+		<Services />
 
-		<div className="social d-flex align-items-center text-center">
-			<div className="col-4">
-				<i className="fab fa-twitter fa-3x"></i>
-			</div>
-			<div className="col-4">
-				<i className="fab fa-instagram fa-3x"></i>
-			</div>
-			<div className="col-4">
-				<i className="fab fa-facebook-f fa-3x"></i>
-			</div>
-		</div>
+
 		<div className="profile d-flex my-4 justify-content-center">
 			<div className="col-3">
 				<img src='/static/gwen.jpg' style={{ width: 275 }} />
