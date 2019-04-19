@@ -78,6 +78,76 @@ var Jumbo = function Jumbo() {
 
 /***/ }),
 
+/***/ "./Sections/Home/Mission.js":
+/*!**********************************!*\
+  !*** ./Sections/Home/Mission.js ***!
+  \**********************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+var _jsxFileName = "/media/thomas/extfiles/Projects/treasured_footsteps/Sections/Home/Mission.js";
+
+
+var Mission = function Mission() {
+  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    style: {
+      height: 350
+    },
+    className: "container",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 3
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "h-100 text-center",
+    style: {
+      backgroundColor: '#16E0BD'
+    },
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 4
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "d-flex m-auto justify-content-center h-100 flex-column w-50",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 5
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 6
+    },
+    __self: this
+  }, "Mission"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    className: "lead text-white",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 7
+    },
+    __self: this
+  }, "\"My mission is to encourage, uplift, and promote a healthy positive lifestyle to mature adults through education, exercise and dance\""), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("button", {
+    className: "btn btn-info w-50 ml-auto mr-auto",
+    type: "button",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 10
+    },
+    __self: this
+  }, "Read"))));
+};
+
+/* harmony default export */ __webpack_exports__["default"] = (Mission);
+
+/***/ }),
+
 /***/ "./Sections/Home/Services.js":
 /*!***********************************!*\
   !*** ./Sections/Home/Services.js ***!
@@ -93,51 +163,64 @@ var _jsxFileName = "/media/thomas/extfiles/Projects/treasured_footsteps/Sections
 
 
 var Services = function Services() {
-  var services = ['group fitness', 'Personal Training', 'Wellness Coaching'];
+  var services = [{
+    service: 'group fitness',
+    img: "group_fitness"
+  }, {
+    service: 'Personal Training',
+    img: 'personal_training'
+  }, {
+    service: 'Wellness Coaching',
+    img: 'wellness_coaching'
+  }];
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "d-flex justify-content-around my-5",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 6
+      lineNumber: 19
     },
     __self: this
-  }, services.map(function (service) {
+  }, services.map(function (_ref) {
+    var service = _ref.service,
+        img = _ref.img;
     return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
       className: "card",
       style: {
-        width: "18rem"
+        width: "20rem"
       },
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 8
+        lineNumber: 21
       },
       __self: this
-    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+      src: "/static/".concat(img, ".jpg"),
+      class: "card-img-top img-fluid",
+      alt: "...",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 22
+      },
+      __self: this
+    }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
       className: "card-body",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 9
+        lineNumber: 23
       },
       __self: this
     }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h5", {
       className: "card-title text-center text-capitalize",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 10
+        lineNumber: 24
       },
       __self: this
-    }, service), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h6", {
-      className: "card-subtitle mb-2 text-muted",
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 11
-      },
-      __self: this
-    }, "Card subtitle"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    }, service), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
       className: "card-text",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 12
+        lineNumber: 25
       },
       __self: this
     }, "Some quick example text to build on the card title and make up the bulk of the card's content."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
@@ -145,18 +228,10 @@ var Services = function Services() {
       className: "card-link",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 13
+        lineNumber: 26
       },
       __self: this
-    }, "Card link"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-      href: "#",
-      className: "card-link",
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 14
-      },
-      __self: this
-    }, "Another link")));
+    }, "Card link")));
   }));
 };
 
@@ -1156,7 +1231,9 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var _Sections_Home_Jumbo__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../Sections/Home/Jumbo */ "./Sections/Home/Jumbo.js");
 /* harmony import */ var _Sections_Home_Services__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../Sections/Home/Services */ "./Sections/Home/Services.js");
+/* harmony import */ var _Sections_Home_Mission__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../Sections/Home/Mission */ "./Sections/Home/Mission.js");
 var _jsxFileName = "/media/thomas/extfiles/Projects/treasured_footsteps/pages/index.js";
+
 
 
 
@@ -1168,33 +1245,39 @@ var Home = function Home() {
     className: "jsx-3378496292",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 6
+      lineNumber: 7
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_Sections_Home_Jumbo__WEBPACK_IMPORTED_MODULE_2__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 9
+      lineNumber: 10
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_Sections_Home_Services__WEBPACK_IMPORTED_MODULE_3__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 10
+      lineNumber: 11
+    },
+    __self: this
+  }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_Sections_Home_Mission__WEBPACK_IMPORTED_MODULE_4__["default"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 12
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
     className: "jsx-3378496292" + " " + "profile d-flex my-4 justify-content-center",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 13
+      lineNumber: 15
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
     className: "jsx-3378496292" + " " + "col-3",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 14
+      lineNumber: 16
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("img", {
@@ -1205,14 +1288,14 @@ var Home = function Home() {
     className: "jsx-3378496292",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 15
+      lineNumber: 17
     },
     __self: this
   })), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
     className: "jsx-3378496292" + " " + "col-6",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 17
+      lineNumber: 19
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", {
@@ -1222,13 +1305,13 @@ var Home = function Home() {
     className: "jsx-3378496292" + " " + 'lead',
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 18
+      lineNumber: 20
     },
     __self: this
   }, "Thank you for visiting Treasured Footsteps. My name is Gwen Jones and I am the founder of Treasured Footsteps. Treasured Footsteps is not only a fitness studio. We are a resource and place for women to exercise, socialize and participate in community events. I am a certified personal trainer, and wellness  coach who works with women 40 years of age and up. I provide quality services and ensure that all of my ladies are working in a safe, fun environment while seeing results in their overall wellness. I love what I do!"))), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a, {
     id: "3378496292",
     __self: this
-  }, ".social.jsx-3378496292{height:75px;background-color:lightgray;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9tZWRpYS90aG9tYXMvZXh0ZmlsZXMvUHJvamVjdHMvdHJlYXN1cmVkX2Zvb3RzdGVwcy9wYWdlcy9pbmRleC5qcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFzQmMsQUFLa0IsWUFFZCwyQkFBQyIsImZpbGUiOiIvbWVkaWEvdGhvbWFzL2V4dGZpbGVzL1Byb2plY3RzL3RyZWFzdXJlZF9mb290c3RlcHMvcGFnZXMvaW5kZXguanMiLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgSnVtYm8gZnJvbSAnLi4vU2VjdGlvbnMvSG9tZS9KdW1ibydcbmltcG9ydCBTZXJ2aWNlcyBmcm9tICcuLi9TZWN0aW9ucy9Ib21lL1NlcnZpY2VzJ1xuXG4vLyBIb21lIFBhZ2VcbmNvbnN0IEhvbWUgPSAoKSA9PiAoXG5cdDxkaXYgaWQ9J2hvbWUnPlxuXG5cdFx0ey8qIEp1bWJvdHJvbiAqL31cblx0XHQ8SnVtYm8gLz5cblx0XHQ8U2VydmljZXMgLz5cblxuXG5cdFx0PGRpdiBjbGFzc05hbWU9XCJwcm9maWxlIGQtZmxleCBteS00IGp1c3RpZnktY29udGVudC1jZW50ZXJcIj5cblx0XHRcdDxkaXYgY2xhc3NOYW1lPVwiY29sLTNcIj5cblx0XHRcdFx0PGltZyBzcmM9Jy9zdGF0aWMvZ3dlbi5qcGcnIHN0eWxlPXt7IHdpZHRoOiAyNzUgfX0gLz5cblx0XHRcdDwvZGl2PlxuXHRcdFx0PGRpdiBjbGFzc05hbWU9XCJjb2wtNlwiPlxuXHRcdFx0XHQ8cCBjbGFzc05hbWU9J2xlYWQnIHN0eWxlPXt7IGxpbmVIZWlnaHQ6IDEuNSB9fT5UaGFuayB5b3UgZm9yIHZpc2l0aW5nIFRyZWFzdXJlZCBGb290c3RlcHMuIE15IG5hbWUgaXMgR3dlbiBKb25lcyBhbmQgSSBhbSB0aGUgZm91bmRlciBvZiBUcmVhc3VyZWQgRm9vdHN0ZXBzLiBUcmVhc3VyZWQgRm9vdHN0ZXBzIGlzIG5vdCBvbmx5IGEgZml0bmVzcyBzdHVkaW8uIFdlIGFyZSBhIHJlc291cmNlIGFuZCBwbGFjZSBmb3Igd29tZW4gdG8gZXhlcmNpc2UsIHNvY2lhbGl6ZSBhbmQgcGFydGljaXBhdGUgaW4gY29tbXVuaXR5IGV2ZW50cy4gSSBhbSBhIGNlcnRpZmllZCBwZXJzb25hbCB0cmFpbmVyLCBhbmQgd2VsbG5lc3MgIGNvYWNoIHdobyB3b3JrcyB3aXRoIHdvbWVuIDQwIHllYXJzIG9mIGFnZSBhbmQgdXAuIEkgcHJvdmlkZSBxdWFsaXR5IHNlcnZpY2VzIGFuZCBlbnN1cmUgdGhhdCBhbGwgb2YgbXkgbGFkaWVzIGFyZSB3b3JraW5nIGluIGEgc2FmZSwgZnVuIGVudmlyb25tZW50IHdoaWxlIHNlZWluZyByZXN1bHRzIGluIHRoZWlyIG92ZXJhbGwgd2VsbG5lc3MuIEkgbG92ZSB3aGF0IEkgZG8hPC9wPlxuXHRcdFx0PC9kaXY+XG5cdFx0PC9kaXY+XG5cblxuXHRcdDxzdHlsZSBqc3g+e2BcblxuXG5cdFx0XHRcdC5zb2NpYWwge1xuXHRcdFx0XHRcdGhlaWdodDogNzVweDtcblx0XHRcdFx0XHRiYWNrZ3JvdW5kLWNvbG9yOiBsaWdodGdyYXlcblx0XHRcdFx0fVxuICAgICAgYH1cblx0XHQ8L3N0eWxlPlxuXHQ8L2Rpdj5cbilcblxuZXhwb3J0IGRlZmF1bHQgSG9tZTsiXX0= */\n/*@ sourceURL=/media/thomas/extfiles/Projects/treasured_footsteps/pages/index.js */"));
+  }, ".social.jsx-3378496292{height:75px;background-color:lightgray;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9tZWRpYS90aG9tYXMvZXh0ZmlsZXMvUHJvamVjdHMvdHJlYXN1cmVkX2Zvb3RzdGVwcy9wYWdlcy9pbmRleC5qcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUF3QmMsQUFLa0IsWUFFZCwyQkFBQyIsImZpbGUiOiIvbWVkaWEvdGhvbWFzL2V4dGZpbGVzL1Byb2plY3RzL3RyZWFzdXJlZF9mb290c3RlcHMvcGFnZXMvaW5kZXguanMiLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgSnVtYm8gZnJvbSAnLi4vU2VjdGlvbnMvSG9tZS9KdW1ibydcbmltcG9ydCBTZXJ2aWNlcyBmcm9tICcuLi9TZWN0aW9ucy9Ib21lL1NlcnZpY2VzJ1xuaW1wb3J0IE1pc3Npb24gZnJvbSAnLi4vU2VjdGlvbnMvSG9tZS9NaXNzaW9uJ1xuXG4vLyBIb21lIFBhZ2VcbmNvbnN0IEhvbWUgPSAoKSA9PiAoXG5cdDxkaXYgaWQ9J2hvbWUnPlxuXG5cdFx0ey8qIEp1bWJvdHJvbiAqL31cblx0XHQ8SnVtYm8gLz5cblx0XHQ8U2VydmljZXMgLz5cblx0XHQ8TWlzc2lvbiAvPlxuXG5cblx0XHQ8ZGl2IGNsYXNzTmFtZT1cInByb2ZpbGUgZC1mbGV4IG15LTQganVzdGlmeS1jb250ZW50LWNlbnRlclwiPlxuXHRcdFx0PGRpdiBjbGFzc05hbWU9XCJjb2wtM1wiPlxuXHRcdFx0XHQ8aW1nIHNyYz0nL3N0YXRpYy9nd2VuLmpwZycgc3R5bGU9e3sgd2lkdGg6IDI3NSB9fSAvPlxuXHRcdFx0PC9kaXY+XG5cdFx0XHQ8ZGl2IGNsYXNzTmFtZT1cImNvbC02XCI+XG5cdFx0XHRcdDxwIGNsYXNzTmFtZT0nbGVhZCcgc3R5bGU9e3sgbGluZUhlaWdodDogMS41IH19PlRoYW5rIHlvdSBmb3IgdmlzaXRpbmcgVHJlYXN1cmVkIEZvb3RzdGVwcy4gTXkgbmFtZSBpcyBHd2VuIEpvbmVzIGFuZCBJIGFtIHRoZSBmb3VuZGVyIG9mIFRyZWFzdXJlZCBGb290c3RlcHMuIFRyZWFzdXJlZCBGb290c3RlcHMgaXMgbm90IG9ubHkgYSBmaXRuZXNzIHN0dWRpby4gV2UgYXJlIGEgcmVzb3VyY2UgYW5kIHBsYWNlIGZvciB3b21lbiB0byBleGVyY2lzZSwgc29jaWFsaXplIGFuZCBwYXJ0aWNpcGF0ZSBpbiBjb21tdW5pdHkgZXZlbnRzLiBJIGFtIGEgY2VydGlmaWVkIHBlcnNvbmFsIHRyYWluZXIsIGFuZCB3ZWxsbmVzcyAgY29hY2ggd2hvIHdvcmtzIHdpdGggd29tZW4gNDAgeWVhcnMgb2YgYWdlIGFuZCB1cC4gSSBwcm92aWRlIHF1YWxpdHkgc2VydmljZXMgYW5kIGVuc3VyZSB0aGF0IGFsbCBvZiBteSBsYWRpZXMgYXJlIHdvcmtpbmcgaW4gYSBzYWZlLCBmdW4gZW52aXJvbm1lbnQgd2hpbGUgc2VlaW5nIHJlc3VsdHMgaW4gdGhlaXIgb3ZlcmFsbCB3ZWxsbmVzcy4gSSBsb3ZlIHdoYXQgSSBkbyE8L3A+XG5cdFx0XHQ8L2Rpdj5cblx0XHQ8L2Rpdj5cblxuXG5cdFx0PHN0eWxlIGpzeD57YFxuXG5cblx0XHRcdFx0LnNvY2lhbCB7XG5cdFx0XHRcdFx0aGVpZ2h0OiA3NXB4O1xuXHRcdFx0XHRcdGJhY2tncm91bmQtY29sb3I6IGxpZ2h0Z3JheVxuXHRcdFx0XHR9XG4gICAgICBgfVxuXHRcdDwvc3R5bGU+XG5cdDwvZGl2PlxuKVxuXG5leHBvcnQgZGVmYXVsdCBIb21lOyJdfQ== */\n/*@ sourceURL=/media/thomas/extfiles/Projects/treasured_footsteps/pages/index.js */"));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (Home);

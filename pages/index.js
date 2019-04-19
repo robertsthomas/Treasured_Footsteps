@@ -1,5 +1,6 @@
 import Jumbo from '../Sections/Home/Jumbo'
 import Services from '../Sections/Home/Services'
+import Mission from '../Sections/Home/Mission'
 
 // Home Page
 const Home = () => (
@@ -8,6 +9,7 @@ const Home = () => (
 		{/* Jumbotron */}
 		<Jumbo />
 		<Services />
+		<Mission />
 
 
 		<div className="profile d-flex my-4 justify-content-center">
