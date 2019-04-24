@@ -11,7 +11,7 @@ const Nav = () => {
 				<div className="navbar-nav">
 					<Link href="/"><a className="nav-item nav-link active">Home</a></Link>
 					<Link href="/about"><a className="nav-item nav-link">About</a></Link>
-					<Link href="/about"><a className="nav-item nav-link">About</a></Link>
+					<Link href="/about"><a className="nav-item nav-link">Contact</a></Link>
 				</div>
 				<Link href="/login"><a className="nav-item nav-link ml-auto text-secondary">Login</a></Link>
 			</div>

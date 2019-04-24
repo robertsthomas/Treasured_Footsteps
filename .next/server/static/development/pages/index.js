@@ -188,9 +188,9 @@ var _jsxFileName = "/media/thomas/extfiles/Projects/treasured_footsteps/Sections
 var Mission = function Mission() {
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     style: {
-      height: 350
+      height: 200
     },
-    className: "container",
+    className: "my-5",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 3
@@ -199,7 +199,7 @@ var Mission = function Mission() {
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "h-100 text-center",
     style: {
-      backgroundColor: '#16E0BD'
+      backgroundColor: '#BEE6CE'
     },
     __source: {
       fileName: _jsxFileName,
@@ -207,37 +207,130 @@ var Mission = function Mission() {
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "d-flex m-auto justify-content-center h-100 flex-column w-50",
+    className: "d-flex m-auto justify-content-center h-100 flex-column w-75",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 5
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    className: "h3 text-light font-weight-bolder my-4",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 6
     },
     __self: this
-  }, "Mission"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
-    className: "lead text-white",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 7
-    },
-    __self: this
-  }, "\"My mission is to encourage, uplift, and promote a healthy positive lifestyle to mature adults through education, exercise and dance\""), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("button", {
-    className: "btn btn-info w-50 ml-auto mr-auto",
-    type: "button",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 10
-    },
-    __self: this
-  }, "Read"))));
+  }, "\"My mission is to encourage, uplift, and promote a healthy positive lifestyle to mature adults through education, exercise and dance\""))));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (Mission);
+
+/***/ }),
+
+/***/ "./Sections/Home/Schedule.js":
+/*!***********************************!*\
+  !*** ./Sections/Home/Schedule.js ***!
+  \***********************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+var _jsxFileName = "/media/thomas/extfiles/Projects/treasured_footsteps/Sections/Home/Schedule.js";
+
+
+var Schedule = function Schedule() {
+  var classes = [{
+    type: "Zumba Gold",
+    schedule: [{
+      day: 'Monday',
+      time: '10:15 am - 11:00 am'
+    }]
+  }, {
+    type: "L.I.S",
+    schedule: [{
+      day: 'Thursday',
+      time: '8:30 am - 9:15 am'
+    }]
+  }, {
+    type: "Bootcamp",
+    schedule: [{
+      day: 'Thursday',
+      time: '9:30 am - 10:30 am'
+    }]
+  }, {
+    type: 'Zumba Toning',
+    schedule: [{
+      day: "Friday",
+      time: '8:00 am - 9:00 am'
+    }]
+  }, {
+    type: 'Body Sculpting',
+    schedule: [{
+      day: 'Monday',
+      time: '9:15 am - 10:00 am'
+    }, {
+      day: 'Saturday',
+      time: '8:30 am - 9:15 am'
+    }]
+  }];
+  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "container my-5",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 58
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 60
+    },
+    __self: this
+  }, "Class Schedule"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    class: "card w-75 mx-auto",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 61
+    },
+    __self: this
+  }, classes.map(function (data) {
+    return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 63
+      },
+      __self: this
+    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      class: "card-header",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 64
+      },
+      __self: this
+    }, data.type), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", {
+      class: "list-group list-group-flush",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 67
+      },
+      __self: this
+    }, data.schedule.map(function (d) {
+      return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+        class: "list-group-item",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 69
+        },
+        __self: this
+      }, d.day, " ", d.time);
+    })));
+  })));
+};
+
+/* harmony default export */ __webpack_exports__["default"] = (Schedule);
 
 /***/ }),
 
@@ -267,10 +360,17 @@ var Services = function Services() {
     img: 'wellness_coaching'
   }];
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "d-flex justify-content-around my-5",
+    className: "container-fluid my-5",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 19
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "d-flex justify-content-around",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 20
     },
     __self: this
   }, services.map(function (_ref) {
@@ -283,49 +383,62 @@ var Services = function Services() {
       },
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 21
+        lineNumber: 22
       },
       __self: this
     }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
       src: "/static/".concat(img, ".jpg"),
-      class: "card-img-top img-fluid",
-      alt: "...",
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 22
+      className: "card-img-top img-fluid",
+      style: {
+        height: "10rem",
+        objectFit: 'cover'
       },
-      __self: this
-    }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-      className: "card-body",
       __source: {
         fileName: _jsxFileName,
         lineNumber: 23
       },
       __self: this
-    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h5", {
-      className: "card-title text-center text-capitalize",
+    }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      className: "card-body pt-0 px-0",
       __source: {
         fileName: _jsxFileName,
         lineNumber: 24
       },
       __self: this
-    }, service), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
-      className: "card-text",
+    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h5", {
+      className: "card-title text-center text-capitalize bg-dark py-2 text-light",
       __source: {
         fileName: _jsxFileName,
         lineNumber: 25
       },
       __self: this
-    }, "Some quick example text to build on the card title and make up the bulk of the card's content."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-      href: "#",
-      className: "card-link",
+    }, service), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      className: "px-3",
       __source: {
         fileName: _jsxFileName,
         lineNumber: 26
       },
       __self: this
-    }, "Card link")));
-  }));
+    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+      className: "card-text",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 27
+      },
+      __self: this
+    }, "Some quick example text to build on the card title and make up the bulk of the card's content."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("button", {
+      type: "button",
+      className: "btn btn-light btn-block",
+      style: {
+        color: 'green'
+      },
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 28
+      },
+      __self: this
+    }, "Learn More"))));
+  })));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (Services);
@@ -1095,7 +1208,9 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _Sections_Home_Jumbo__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../Sections/Home/Jumbo */ "./Sections/Home/Jumbo.js");
 /* harmony import */ var _Sections_Home_Services__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../Sections/Home/Services */ "./Sections/Home/Services.js");
 /* harmony import */ var _Sections_Home_Mission__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../Sections/Home/Mission */ "./Sections/Home/Mission.js");
+/* harmony import */ var _Sections_Home_Schedule__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../Sections/Home/Schedule */ "./Sections/Home/Schedule.js");
 var _jsxFileName = "/media/thomas/extfiles/Projects/treasured_footsteps/pages/index.js";
+
 
 
 
@@ -1108,39 +1223,39 @@ var Home = function Home() {
     className: "jsx-3378496292",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 7
+      lineNumber: 8
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_Sections_Home_Jumbo__WEBPACK_IMPORTED_MODULE_2__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 10
+      lineNumber: 11
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_Sections_Home_Services__WEBPACK_IMPORTED_MODULE_3__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 11
+      lineNumber: 12
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_Sections_Home_Mission__WEBPACK_IMPORTED_MODULE_4__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 12
+      lineNumber: 13
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
     className: "jsx-3378496292" + " " + "profile d-flex my-4 justify-content-center",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 15
+      lineNumber: 16
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
     className: "jsx-3378496292" + " " + "col-3",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 16
+      lineNumber: 17
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("img", {
@@ -1151,14 +1266,14 @@ var Home = function Home() {
     className: "jsx-3378496292",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 17
+      lineNumber: 18
     },
     __self: this
   })), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
     className: "jsx-3378496292" + " " + "col-6",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 19
+      lineNumber: 20
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", {
@@ -1168,13 +1283,19 @@ var Home = function Home() {
     className: "jsx-3378496292" + " " + 'lead',
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 20
+      lineNumber: 21
     },
     __self: this
-  }, "Thank you for visiting Treasured Footsteps. My name is Gwen Jones and I am the founder of Treasured Footsteps. Treasured Footsteps is not only a fitness studio. We are a resource and place for women to exercise, socialize and participate in community events. I am a certified personal trainer, and wellness  coach who works with women 40 years of age and up. I provide quality services and ensure that all of my ladies are working in a safe, fun environment while seeing results in their overall wellness. I love what I do!"))), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a, {
+  }, "Thank you for visiting Treasured Footsteps. My name is Gwen Jones and I am the founder of Treasured Footsteps. Treasured Footsteps is not only a fitness studio. We are a resource and place for women to exercise, socialize and participate in community events. I am a certified personal trainer, and wellness  coach who works with women 40 years of age and up. I provide quality services and ensure that all of my ladies are working in a safe, fun environment while seeing results in their overall wellness. I love what I do!"))), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_Sections_Home_Schedule__WEBPACK_IMPORTED_MODULE_5__["default"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 24
+    },
+    __self: this
+  }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a, {
     id: "3378496292",
     __self: this
-  }, ".social.jsx-3378496292{height:75px;background-color:lightgray;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9tZWRpYS90aG9tYXMvZXh0ZmlsZXMvUHJvamVjdHMvdHJlYXN1cmVkX2Zvb3RzdGVwcy9wYWdlcy9pbmRleC5qcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUF3QmMsQUFLa0IsWUFFZCwyQkFBQyIsImZpbGUiOiIvbWVkaWEvdGhvbWFzL2V4dGZpbGVzL1Byb2plY3RzL3RyZWFzdXJlZF9mb290c3RlcHMvcGFnZXMvaW5kZXguanMiLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgSnVtYm8gZnJvbSAnLi4vU2VjdGlvbnMvSG9tZS9KdW1ibydcbmltcG9ydCBTZXJ2aWNlcyBmcm9tICcuLi9TZWN0aW9ucy9Ib21lL1NlcnZpY2VzJ1xuaW1wb3J0IE1pc3Npb24gZnJvbSAnLi4vU2VjdGlvbnMvSG9tZS9NaXNzaW9uJ1xuXG4vLyBIb21lIFBhZ2VcbmNvbnN0IEhvbWUgPSAoKSA9PiAoXG5cdDxkaXYgaWQ9J2hvbWUnPlxuXG5cdFx0ey8qIEp1bWJvdHJvbiAqL31cblx0XHQ8SnVtYm8gLz5cblx0XHQ8U2VydmljZXMgLz5cblx0XHQ8TWlzc2lvbiAvPlxuXG5cblx0XHQ8ZGl2IGNsYXNzTmFtZT1cInByb2ZpbGUgZC1mbGV4IG15LTQganVzdGlmeS1jb250ZW50LWNlbnRlclwiPlxuXHRcdFx0PGRpdiBjbGFzc05hbWU9XCJjb2wtM1wiPlxuXHRcdFx0XHQ8aW1nIHNyYz0nL3N0YXRpYy9nd2VuLmpwZycgc3R5bGU9e3sgd2lkdGg6IDI3NSB9fSAvPlxuXHRcdFx0PC9kaXY+XG5cdFx0XHQ8ZGl2IGNsYXNzTmFtZT1cImNvbC02XCI+XG5cdFx0XHRcdDxwIGNsYXNzTmFtZT0nbGVhZCcgc3R5bGU9e3sgbGluZUhlaWdodDogMS41IH19PlRoYW5rIHlvdSBmb3IgdmlzaXRpbmcgVHJlYXN1cmVkIEZvb3RzdGVwcy4gTXkgbmFtZSBpcyBHd2VuIEpvbmVzIGFuZCBJIGFtIHRoZSBmb3VuZGVyIG9mIFRyZWFzdXJlZCBGb290c3RlcHMuIFRyZWFzdXJlZCBGb290c3RlcHMgaXMgbm90IG9ubHkgYSBmaXRuZXNzIHN0dWRpby4gV2UgYXJlIGEgcmVzb3VyY2UgYW5kIHBsYWNlIGZvciB3b21lbiB0byBleGVyY2lzZSwgc29jaWFsaXplIGFuZCBwYXJ0aWNpcGF0ZSBpbiBjb21tdW5pdHkgZXZlbnRzLiBJIGFtIGEgY2VydGlmaWVkIHBlcnNvbmFsIHRyYWluZXIsIGFuZCB3ZWxsbmVzcyAgY29hY2ggd2hvIHdvcmtzIHdpdGggd29tZW4gNDAgeWVhcnMgb2YgYWdlIGFuZCB1cC4gSSBwcm92aWRlIHF1YWxpdHkgc2VydmljZXMgYW5kIGVuc3VyZSB0aGF0IGFsbCBvZiBteSBsYWRpZXMgYXJlIHdvcmtpbmcgaW4gYSBzYWZlLCBmdW4gZW52aXJvbm1lbnQgd2hpbGUgc2VlaW5nIHJlc3VsdHMgaW4gdGhlaXIgb3ZlcmFsbCB3ZWxsbmVzcy4gSSBsb3ZlIHdoYXQgSSBkbyE8L3A+XG5cdFx0XHQ8L2Rpdj5cblx0XHQ8L2Rpdj5cblxuXG5cdFx0PHN0eWxlIGpzeD57YFxuXG5cblx0XHRcdFx0LnNvY2lhbCB7XG5cdFx0XHRcdFx0aGVpZ2h0OiA3NXB4O1xuXHRcdFx0XHRcdGJhY2tncm91bmQtY29sb3I6IGxpZ2h0Z3JheVxuXHRcdFx0XHR9XG4gICAgICBgfVxuXHRcdDwvc3R5bGU+XG5cdDwvZGl2PlxuKVxuXG5leHBvcnQgZGVmYXVsdCBIb21lOyJdfQ== */\n/*@ sourceURL=/media/thomas/extfiles/Projects/treasured_footsteps/pages/index.js */"));
+  }, ".social.jsx-3378496292{height:75px;background-color:lightgray;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9tZWRpYS90aG9tYXMvZXh0ZmlsZXMvUHJvamVjdHMvdHJlYXN1cmVkX2Zvb3RzdGVwcy9wYWdlcy9pbmRleC5qcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUEwQmMsQUFLa0IsWUFFZCwyQkFBQyIsImZpbGUiOiIvbWVkaWEvdGhvbWFzL2V4dGZpbGVzL1Byb2plY3RzL3RyZWFzdXJlZF9mb290c3RlcHMvcGFnZXMvaW5kZXguanMiLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgSnVtYm8gZnJvbSAnLi4vU2VjdGlvbnMvSG9tZS9KdW1ibydcbmltcG9ydCBTZXJ2aWNlcyBmcm9tICcuLi9TZWN0aW9ucy9Ib21lL1NlcnZpY2VzJ1xuaW1wb3J0IE1pc3Npb24gZnJvbSAnLi4vU2VjdGlvbnMvSG9tZS9NaXNzaW9uJ1xuaW1wb3J0IFNjaGVkdWxlIGZyb20gJy4uL1NlY3Rpb25zL0hvbWUvU2NoZWR1bGUnXG5cbi8vIEhvbWUgUGFnZVxuY29uc3QgSG9tZSA9ICgpID0+IChcblx0PGRpdiBpZD0naG9tZSc+XG5cblx0XHR7LyogSnVtYm90cm9uICovfVxuXHRcdDxKdW1ibyAvPlxuXHRcdDxTZXJ2aWNlcyAvPlxuXHRcdDxNaXNzaW9uIC8+XG5cblxuXHRcdDxkaXYgY2xhc3NOYW1lPVwicHJvZmlsZSBkLWZsZXggbXktNCBqdXN0aWZ5LWNvbnRlbnQtY2VudGVyXCI+XG5cdFx0XHQ8ZGl2IGNsYXNzTmFtZT1cImNvbC0zXCI+XG5cdFx0XHRcdDxpbWcgc3JjPScvc3RhdGljL2d3ZW4uanBnJyBzdHlsZT17eyB3aWR0aDogMjc1IH19IC8+XG5cdFx0XHQ8L2Rpdj5cblx0XHRcdDxkaXYgY2xhc3NOYW1lPVwiY29sLTZcIj5cblx0XHRcdFx0PHAgY2xhc3NOYW1lPSdsZWFkJyBzdHlsZT17eyBsaW5lSGVpZ2h0OiAxLjUgfX0+VGhhbmsgeW91IGZvciB2aXNpdGluZyBUcmVhc3VyZWQgRm9vdHN0ZXBzLiBNeSBuYW1lIGlzIEd3ZW4gSm9uZXMgYW5kIEkgYW0gdGhlIGZvdW5kZXIgb2YgVHJlYXN1cmVkIEZvb3RzdGVwcy4gVHJlYXN1cmVkIEZvb3RzdGVwcyBpcyBub3Qgb25seSBhIGZpdG5lc3Mgc3R1ZGlvLiBXZSBhcmUgYSByZXNvdXJjZSBhbmQgcGxhY2UgZm9yIHdvbWVuIHRvIGV4ZXJjaXNlLCBzb2NpYWxpemUgYW5kIHBhcnRpY2lwYXRlIGluIGNvbW11bml0eSBldmVudHMuIEkgYW0gYSBjZXJ0aWZpZWQgcGVyc29uYWwgdHJhaW5lciwgYW5kIHdlbGxuZXNzICBjb2FjaCB3aG8gd29ya3Mgd2l0aCB3b21lbiA0MCB5ZWFycyBvZiBhZ2UgYW5kIHVwLiBJIHByb3ZpZGUgcXVhbGl0eSBzZXJ2aWNlcyBhbmQgZW5zdXJlIHRoYXQgYWxsIG9mIG15IGxhZGllcyBhcmUgd29ya2luZyBpbiBhIHNhZmUsIGZ1biBlbnZpcm9ubWVudCB3aGlsZSBzZWVpbmcgcmVzdWx0cyBpbiB0aGVpciBvdmVyYWxsIHdlbGxuZXNzLiBJIGxvdmUgd2hhdCBJIGRvITwvcD5cblx0XHRcdDwvZGl2PlxuXHRcdDwvZGl2PlxuXHRcdDxTY2hlZHVsZSAvPlxuXG5cblx0XHQ8c3R5bGUganN4PntgXG5cblxuXHRcdFx0XHQuc29jaWFsIHtcblx0XHRcdFx0XHRoZWlnaHQ6IDc1cHg7XG5cdFx0XHRcdFx0YmFja2dyb3VuZC1jb2xvcjogbGlnaHRncmF5XG5cdFx0XHRcdH1cbiAgICAgIGB9XG5cdFx0PC9zdHlsZT5cblx0PC9kaXY+XG4pXG5cbmV4cG9ydCBkZWZhdWx0IEhvbWU7Il19 */\n/*@ sourceURL=/media/thomas/extfiles/Projects/treasured_footsteps/pages/index.js */"));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (Home);
